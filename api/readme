@@ -1,0 +1,13 @@
+#1 In AWS EC2
+# CREATE DATABASE name_data_base;
+#2 change a my DATABASE
+# \c name_data_base
+#3 show tables
+# \dt
+
+#4 init sequelize
+# sequelize init
+#5 create models
+# sequelize model:create --name post --attributes title:string,description:string
+#6 Migrate tables
+# sequelize db:migrate
